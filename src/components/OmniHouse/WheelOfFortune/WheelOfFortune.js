@@ -3,14 +3,16 @@ import './WheelOfFortune.css';
 const WheelOfFortune = () => {
   return (
     <div className="wheel-of-fortune-wrapper">
+      <div className="arrow"></div>
       <ul className="circle">
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
+          <div className="text">
             <p>1 0 % M A</p>
           </div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
+          {/* <div className="text" contenteditable="true" spellcheck="false"> */}
+          <div className="text">
             <p>R K E T P L</p>
             <img
               style={{
@@ -24,56 +26,40 @@ const WheelOfFortune = () => {
           </div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
+          <div className="text">
             <p>A C E D I S</p>
           </div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
+          <div className="text">
             <p>C O U N T</p>
           </div>
         </li>
 
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
 
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
         <li>
-          <div className="text" contenteditable="true" spellcheck="false">
-            1
-          </div>
+          <div className="text">1</div>
         </li>
       </ul>
     </div>
