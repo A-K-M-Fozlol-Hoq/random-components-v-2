@@ -12,6 +12,15 @@ const WheelOfFortune = () => {
         <li>
           <div className="text" contenteditable="true" spellcheck="false">
             <p>R K E T P L</p>
+            <img
+              style={{
+                height: '40px',
+                width: '30px',
+                marginLeft: '20px',
+              }}
+              src="https://www.upwork.com/profile-portraits/c124nS36A7PEIbdgNwBaVjVjkq3I6oCCaYL-dUkmfzh9Us6nyPFZWltZoNl0ZsBiAO"
+              alt=""
+            />
           </div>
         </li>
         <li>
