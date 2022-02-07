@@ -1,33 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './WheelOfFortune.css';
-const WheelOfFortune = (props) => {
-  const [selectedItem, setSelectedItem] = useState(null);
-
-  const { items } = props;
-
-  const wheelVars = {
-    '--nb-item': items.length,
-    '--selected-item': selectedItem,
-  };
-  const spinning = selectedItem !== null ? 'spinning' : '';
-
+const WheelOfFortune = () => {
   return (
-    <div className="wheel-container">
-      <div
-        className={`wheel ${spinning}`}
-        style={wheelVars}
-        onClick={() => setSelectedItem(1)}
-      >
-        {items.map((item, index) => (
-          <div
-            className="wheel-item"
-            key={index}
-            style={{ '--item-nb': index }}
-          >
-            {item}
+    <div className="wheel-of-fortune-wrapper">
+      <ul className="circle">
+        <li>
+          <div className="text" contenteditable="true" spellcheck="false">
+            1
           </div>
-        ))}
-      </div>
+        </li>
+        <li>
+          <div className="text" contenteditable="true" spellcheck="false">
+            2
+          </div>
+        </li>
+        <li>
+          <div className="text" contenteditable="true" spellcheck="false">
+            3
+          </div>
+        </li>
+      </ul>
     </div>
   );
 };
